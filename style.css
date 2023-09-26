@@ -1,0 +1,117 @@
+:root {
+    font-family: system-ui;
+    line-height: 1.5rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1f64cc;
+}
+
+header, main, footer {
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header nav img {
+    height: 1.2rem;
+    width: auto;
+    margin: 0 0.9rem 0 0;
+}
+
+ul {
+    padding-inline-start: 1.2rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-inline-start: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 0.2rem;
+}
+
+.details table {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table td {
+    padding: 0.2rem 0;
+}
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer nav a {
+    color: gray;
+    text-decoration: none;
+}
+
+footer nav ul li {
+    margin-right: 0.4rem;
+}
+
+footer img {
+    height: 1rem;
+    width: auto;
+    margin: 0 0.7rem 0 0;
+}
+
+footer small {
+    display: flex;
+    align-items: center;
+}
