@@ -3,9 +3,21 @@
     line-height: 1.5rem;
 }
 
+.show-on-mobile {
+    display: table;
+}
+
 @media screen and (max-width: 600px) {
     html {
         font-size: 14px;
+    }
+
+    .show-on-mobile {
+        display: table;
+    }
+
+    .hide-on-mobile {
+        display: none;
     }
 }
 
