@@ -91,16 +91,14 @@ nav ul li {
 table {
     width: 100%;
     table-layout: fixed;
-    font-size: 1rem;
 }
 
-table tr {
-    font-size: 1rem;
-}
-
-table tr td {
-    font-size: 1rem;
+table td {
     padding: 0.2rem 0;
+}
+
+td {
+    font-size: 1rem;
 }
 
 footer {
