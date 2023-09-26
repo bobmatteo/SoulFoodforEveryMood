@@ -7,6 +7,10 @@
     display: none;
 }
 
+.hide-on-mobile {
+    display: table;
+}
+
 @media screen and (max-width: 40rem) {
     html {
         font-size: 14px;
@@ -17,7 +21,7 @@
     }
 
     .hide-on-mobile {
-        display: none !important;
+        display: none;
     }
 }
 
