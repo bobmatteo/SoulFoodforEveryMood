@@ -3,6 +3,12 @@
     line-height: 1.5rem;
 }
 
+@media screen and (max-width: 600px) {
+html {
+    font-size: 14px;
+}
+}
+
 img {
     width: 100%;
     height: auto;
