@@ -4,9 +4,9 @@
 }
 
 @media screen and (max-width: 600px) {
-html {
-    font-size: 14px;
-}
+    html {
+        font-size: 14px;
+    }
 }
 
 img {
@@ -91,6 +91,7 @@ nav ul li {
 table {
     width: 100%;
     table-layout: fixed;
+    font-size: 1rem;
 }
 
 table td {
