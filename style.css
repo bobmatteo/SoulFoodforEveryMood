@@ -7,7 +7,7 @@
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 40rem) {
     html {
         font-size: 14px;
     }
@@ -17,7 +17,7 @@
     }
 
     .hide-on-mobile {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -48,10 +48,12 @@ h2 {
 }
 
 p {
+    font-size: 1rem;
     margin: 0;
 }
 
 a {
+    font-size: 1rem;
     text-decoration: none;
     color: #1f64cc;
 }
@@ -92,6 +94,7 @@ nav ul {
 }
 
 nav ul li {
+    font-size: 1rem;
     display: inline-block;
     padding-right: 0.2rem;
 }
@@ -124,6 +127,7 @@ footer nav a {
 }
 
 footer nav ul li {
+    font-size: 1rem;
     margin-right: 0.4rem;
 }
 
