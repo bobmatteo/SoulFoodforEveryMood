@@ -28,7 +28,7 @@
 img {
     width: 100%;
     height: auto;
-    margin-bottom: 1rem;
+    margin: 2rem 0 0 0;
 }
 
 body {
@@ -42,13 +42,15 @@ hr {
 
 h1 {
     font-weight: 400;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
 }
 
 h2 {
     font-weight: 500;
     font-size: 1.2rem;
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 p {
@@ -57,9 +59,12 @@ p {
 }
 
 a {
-    font-size: 1rem;
     text-decoration: none;
     color: #1f64cc;
+}
+
+section {
+    padding: 1rem 0;
 }
 
 header, main, footer {
@@ -75,6 +80,10 @@ header nav {
     padding: 1rem 0;
 }
 
+header nav ul li {
+    padding-left: 1rem;
+}
+
 header .logo {
     display: flex;
     align-items: center;
@@ -83,10 +92,12 @@ header .logo {
 header nav img {
     height: 1.2rem;
     width: auto;
-    margin: 0 0.9rem 0 0;
+    margin: 0 1rem 0 0;
 }
 
 ul {
+    margin: 0;
+    padding: 0;
     padding-inline-start: 1.2rem;
 }
 
@@ -98,13 +109,7 @@ nav ul {
 }
 
 nav ul li {
-    font-size: 1rem;
     display: inline-block;
-    padding-right: 0.2rem;
-}
-
-.details table {
-    overflow-x: auto;
 }
 
 table {
@@ -114,10 +119,6 @@ table {
 
 table td {
     padding: 0.2rem 0;
-}
-
-td {
-    font-size: 1rem;
 }
 
 footer {
@@ -131,8 +132,7 @@ footer nav a {
 }
 
 footer nav ul li {
-    font-size: 1rem;
-    margin-right: 0.4rem;
+    padding-right: 1rem;
 }
 
 footer img {
