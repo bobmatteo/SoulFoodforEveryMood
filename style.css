@@ -1,5 +1,6 @@
 html {
     font-family: system-ui;
+    font-size: 16px;
     line-height: 1.5rem;
 }
 
@@ -37,7 +38,7 @@ a {
 header, main, footer {
     max-width: 48rem;
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0 1rem;
 }
 
 
