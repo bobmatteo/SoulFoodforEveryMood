@@ -8,12 +8,6 @@ body {
     padding: 0;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    margin: 2rem 0 0 0;
-}
-
 h1 {
     font-weight: 400;
     font-size: 2rem;
@@ -21,8 +15,8 @@ h1 {
 }
 
 h2 {
-    font-weight: 500;
-    font-size: 1.2rem;
+    font-weight: 400;
+    font-size: 1.4rem;
     margin: 0 0 1rem 0;
 }
 
@@ -44,12 +38,6 @@ header, main, footer {
     max-width: 48rem;
     margin: 0 auto;
     padding: 0 16px;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    padding-inline-start: 1.2rem;
 }
 
 
@@ -90,14 +78,41 @@ section {
     padding: 1.4rem 0;
 }
 
+section img {
+    width: 100%;
+    height: auto;
+    margin: 2rem 0 0 0;
+}
+
 section table {
     width: 100%;
     table-layout: fixed;
     font-size: 1rem;
+    /* border-collapse: collapse; */
 }
 
 section table td {
     padding: 0.2rem 0;
+    /* border: 1px solid #ddd; */
+}
+
+section ol {
+    margin: 0;
+    padding: 0;
+    padding-inline-start: 1.2rem;
+    counter-reset: item;
+}
+
+section ol li {
+    display: block;
+    margin-left: 1rem;
+}
+
+section ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    position: absolute;
+    margin-left: -2rem;
 }
 
 
